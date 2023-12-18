@@ -1,0 +1,10 @@
+let Name = "Mithun";
+let email = "mithun.s@pw.live";
+let age = 21;
+let TypeOfname = typeof Name;
+let TypeOfemail = typeof email;
+let TypeOfage = typeof age;
+TypeOfname != "string" ? console.log("Name should be a string"): TypeOfname;
+TypeOfemail != "string" ? console.log("Email should be a string"): TypeOfemail;
+TypeOfage != "number" ? console.log("Age should be a number") : TypeOfage;
+TypeOfname == "string" && TypeOfemail == "string" && TypeOfage == "number" ? console.log("Submission Successful !") :TypeOfname && TypeOfemail && TypeOfage;

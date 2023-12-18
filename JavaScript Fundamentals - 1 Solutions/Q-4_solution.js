@@ -1,0 +1,11 @@
+let numberOfChilds = 2;
+let numberOfAdults = 1;
+let numberOfSeniors = 1;
+let priceForA_child = 100;
+let priceForA_adult = 150;
+let priceForA_senior = 120;
+let totalCostforChilds = numberOfChilds*priceForA_child;
+let totalCostforAdults = numberOfAdults*priceForA_adult;
+let totalCostforSeniors = numberOfSeniors*priceForA_senior;
+let totalTicketPrice = totalCostforChilds+totalCostforAdults+totalCostforSeniors;
+console.log("The total ticket price is : Rs. "+totalTicketPrice);
